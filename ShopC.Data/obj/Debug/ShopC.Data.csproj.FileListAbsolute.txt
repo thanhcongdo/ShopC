@@ -27,3 +27,5 @@ D:\.NET\Source Code\Git\ShopC.Data\obj\Debug\ShopC.Data.csproj.CopyComplete
 D:\.NET\Source Code\Git\ShopC.Data\bin\Debug\ShopC.Model.dll
 D:\.NET\Source Code\Git\ShopC.Data\bin\Debug\ShopC.Model.pdb
 D:\.NET\Source Code\Git\ShopC.Data\bin\Debug\ShopC.Model.dll.config
+D:\.NET\Source Code\Git\ShopC.Data\obj\Debug\ShopC.Data.Migrations.InitialDB.resources
+D:\.NET\Source Code\Git\ShopC.Data\obj\Debug\ShopC.Data.csproj.GenerateResource.cache

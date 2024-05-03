@@ -1,21 +1,16 @@
-using ShopC.Model.Abtract;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShopC.Model.Models
 {
     [Table("SupportOnlines")]
     public class SupportOnline
     {
-       [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Chỉ ra đc ID tự tăng
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { set; get; }
 
+        [Required]
         [MaxLength(50)]
         public string Name { set; get; }
 
@@ -34,14 +29,11 @@ namespace ShopC.Model.Models
         [MaxLength(50)]
         public string Yahoo { set; get; }
 
-         [MaxLength(50)]
-        public string Facebook { set; get; }
-       
-        public int? DisplayOrder {set; get; }
-
         [MaxLength(50)]
+        public string Facebook { set; get; }
 
-        public bool Status {set; get; }
+        public bool Status { set; get; }
 
+        public int? DisplayOrder { set; get; }
     }
 }

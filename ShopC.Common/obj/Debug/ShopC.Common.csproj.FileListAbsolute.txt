@@ -3,3 +3,9 @@ D:\.NET\Source Code\ShopC\ShopC.Common\bin\Debug\ShopC.Common.pdb
 D:\.NET\Source Code\ShopC\ShopC.Common\obj\Debug\ShopC.Common.dll
 D:\.NET\Source Code\ShopC\ShopC.Common\obj\Debug\ShopC.Common.pdb
 D:\.NET\Source Code\ShopC\ShopC.Common\obj\Debug\ShopC.Common.csprojResolveAssemblyReference.cache
+D:\.NET\Source Code\Git\ShopC.Common\bin\Debug\ShopC.Common.dll
+D:\.NET\Source Code\Git\ShopC.Common\bin\Debug\ShopC.Common.pdb
+D:\.NET\Source Code\Git\ShopC.Common\obj\Debug\ShopC.Common.dll
+D:\.NET\Source Code\Git\ShopC.Common\obj\Debug\ShopC.Common.pdb
+D:\.NET\Source Code\Git\ShopC.Common\obj\Debug\ShopC.Common.csproj.AssemblyReference.cache
+D:\.NET\Source Code\Git\ShopC.Common\obj\Debug\ShopC.Common.csproj.CoreCompileInputs.cache

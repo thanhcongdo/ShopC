@@ -1,10 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShopC.Model.Models
 {
@@ -12,18 +7,18 @@ namespace ShopC.Model.Models
     public class PostTag
     {
         [Key]
-        [MaxLength(50)]
+        [Column(Order = 1)]
         public int PostID { set; get; }
 
         [Key]
-        [Collum(TypeName = "varchar")]
+        [Column(TypeName = "varchar",Order =2)]
         [MaxLength(50)]
         public string TagID { set; get; }
 
         [ForeignKey("PostID")]
-        public virtual Post Post { set; get; } 
+        public virtual Post Post { set; get; }
+
         [ForeignKey("TagID")]
         public virtual Tag Tag { set; get; }
-
     }
 }

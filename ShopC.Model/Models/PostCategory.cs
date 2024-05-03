@@ -1,10 +1,7 @@
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using ShopC.Model.Abstract;
 
 namespace ShopC.Model.Models
 {
@@ -12,16 +9,16 @@ namespace ShopC.Model.Models
     public class PostCategory : Auditable
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] // Chỉ ra đc ID tự tăng
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { set; get; }
 
         [Required]
         [MaxLength(256)]
         public string Name { set; get; }
 
-        [Collum(TypeName = "varchar")]
-        [MaxLength(256)]
         [Required]
+        [Column(TypeName = "varchar")]
+        [MaxLength(256)]
         public string Alias { set; get; }
 
         [MaxLength(500)]
@@ -36,6 +33,5 @@ namespace ShopC.Model.Models
         public bool? HomeFlag { set; get; }
 
         public virtual IEnumerable<Post> Posts { set; get; }
-
     }
 }

@@ -1,0 +1,11 @@
+D:\.NET\Source Code\ShopC\ShopC.Service\bin\Debug\ShopC.Service.dll
+D:\.NET\Source Code\ShopC\ShopC.Service\bin\Debug\ShopC.Service.pdb
+D:\.NET\Source Code\ShopC\ShopC.Service\bin\Debug\ShopC.Common.dll
+D:\.NET\Source Code\ShopC\ShopC.Service\bin\Debug\ShopC.Data.dll
+D:\.NET\Source Code\ShopC\ShopC.Service\bin\Debug\ShopC.Model.dll
+D:\.NET\Source Code\ShopC\ShopC.Service\bin\Debug\ShopC.Common.pdb
+D:\.NET\Source Code\ShopC\ShopC.Service\bin\Debug\ShopC.Data.pdb
+D:\.NET\Source Code\ShopC\ShopC.Service\bin\Debug\ShopC.Model.pdb
+D:\.NET\Source Code\ShopC\ShopC.Service\obj\Debug\ShopC.Service.csprojResolveAssemblyReference.cache
+D:\.NET\Source Code\ShopC\ShopC.Service\obj\Debug\ShopC.Service.dll
+D:\.NET\Source Code\ShopC\ShopC.Service\obj\Debug\ShopC.Service.pdb

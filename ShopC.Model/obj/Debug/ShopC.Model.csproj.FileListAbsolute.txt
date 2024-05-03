@@ -1,0 +1,12 @@
+D:\.NET\Source Code\ShopC\ShopC.Model\bin\Debug\ShopC.Model.dll.config
+D:\.NET\Source Code\ShopC\ShopC.Model\bin\Debug\ShopC.Model.dll
+D:\.NET\Source Code\ShopC\ShopC.Model\bin\Debug\ShopC.Model.pdb
+D:\.NET\Source Code\ShopC\ShopC.Model\bin\Debug\EntityFramework.dll
+D:\.NET\Source Code\ShopC\ShopC.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\.NET\Source Code\ShopC\ShopC.Model\bin\Debug\ShopC.Common.dll
+D:\.NET\Source Code\ShopC\ShopC.Model\bin\Debug\ShopC.Common.pdb
+D:\.NET\Source Code\ShopC\ShopC.Model\bin\Debug\EntityFramework.xml
+D:\.NET\Source Code\ShopC\ShopC.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\.NET\Source Code\ShopC\ShopC.Model\obj\Debug\ShopC.Model.csprojResolveAssemblyReference.cache
+D:\.NET\Source Code\ShopC\ShopC.Model\obj\Debug\ShopC.Model.dll
+D:\.NET\Source Code\ShopC\ShopC.Model\obj\Debug\ShopC.Model.pdb

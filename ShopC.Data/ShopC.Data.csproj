@@ -63,6 +63,10 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ErrorRepository.cs" />
+    <Compile Include="Repositories\PostRepository.cs" />
+    <Compile Include="Repositories\ProductCategoryRepository.cs" />
+    <Compile Include="Repositories\ProductRepository.cs" />
     <Compile Include="ShopCDbContext.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -79,9 +83,7 @@
       <Name>ShopC.Model</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Repositories\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202405031954117_InitialDB.resx">
       <DependentUpon>202405031954117_InitialDB.cs</DependentUpon>
